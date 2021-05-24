@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://james-d-elliott.github.io/sitemap.xml
