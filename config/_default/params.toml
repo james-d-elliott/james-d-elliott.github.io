@@ -1,0 +1,58 @@
+# Meta Data for SEO
+
+## Homepage
+title = "James Elliott"
+titleSeparator = "-"
+titleAddition = "A developers personal website"
+description = "I am a developer and this site documents my journey and how to access resources I have produced."
+
+## Open Graph + Twitter Cards
+images = ["doks.png"]
+#twitterSite = ""
+#twitterCreator = ""
+#facebookAuthor = ""
+#facebookPublisher = ""
+ogLocale = "en_US"
+
+## JSON-LD
+schemaType = "Person"
+schemaLogo = "logo-doks.png"
+#schemaTwitter = "https://twitter.com/"
+#schemaLinkedIn = "https://www.linkedin.com/in/"
+schemaGitHub = "https://github.com/james-d-elliott"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+footer = "Powered by <a href=\"https://pages.github.com\">GitHub Pages</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+
+# Alert
+alert = true
+alertText = "Check out <a class=\"alert-link\" href=\"https://github.com/authelia/authelia\">Authelia</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/james-d-elliott/james-d-elliott.github.io"
+editPage = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
