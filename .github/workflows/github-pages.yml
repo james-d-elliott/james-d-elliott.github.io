@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '15'
 
       - name: Cache Dependencies
         uses: actions/cache@v1
@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
-      - run: hugo --minify
+      - run: npx hugo --gc --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
