@@ -17,23 +17,17 @@ toc: true
 
 1. Update the APT cache and install the prerequisite packages:
 
-{{< btn-copy text="sudo apt-get update && apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common" >}}
-
 ```console
 sudo apt-get update && apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 ```
 
 2. Add the repository GPG signing key to the APT trust:
 
-{{< btn-copy text="sudo curl -fsSL https://apt.jameselliott.dev/keyring.gpg -o /etc/apt/trusted.gpg.d/jameselliottdev.gpg" >}}
-
 ```console
 sudo curl -fsSL https://apt.jameselliott.dev/keyring.gpg -o /etc/apt/trusted.gpg.d/jameselliottdev.gpg
 ```
 
 3. Verify the GPG signing key you added is correct:
-
-{{< btn-copy text="sudo gpg --keyring /etc/apt/trusted.gpg.d/jameselliottdev.gpg --fingerprint 23139287" >}}
 
 ```console
 sudo gpg --keyring /etc/apt/trusted.gpg.d/jameselliottdev.gpg --fingerprint 23139287
@@ -42,15 +36,13 @@ sudo gpg --keyring /etc/apt/trusted.gpg.d/jameselliottdev.gpg --fingerprint 2313
 ```text
 pub   rsa4096 2021-01-06 [C]
       3011 AD01 ACED 219F 5319  12D0 F901 891F 2313 9287
-uid           [ unknown] James Elliott 
+uid           [ unknown] James Elliott
 sub   rsa4096 2021-01-06 [S] [expires: 2024-01-06]
 sub   rsa4096 2021-01-06 [E] [expires: 2024-01-06]
 sub   rsa4096 2021-01-06 [A] [expires: 2024-01-06]
 ```
 
 4. Add the repository to APT's sources.list.d:
-
-{{< btn-copy text="echo \"deb https://apt.jameselliott.dev/archive $(lsb_release -cs) main\" | sudo tee /etc/apt/sources.list.d/jameselliott.dev.list" >}}
 
 ```console
 echo "deb https://apt.jameselliott.dev/archive $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/jameselliott.dev.list

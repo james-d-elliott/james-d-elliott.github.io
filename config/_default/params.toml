@@ -6,20 +6,34 @@ titleSeparator = "-"
 titleAddition = "A developers personal website"
 description = "I am a developer and this site documents my journey and how to access resources I have produced."
 
-## Open Graph + Twitter Cards
+## Open Graph
 images = ["doks.png"]
-#twitterSite = ""
-#twitterCreator = ""
-#facebookAuthor = ""
-#facebookPublisher = ""
 ogLocale = "en_US"
+domainTLD = "jameselliott.dev"
+titleHome = "James Ellioptt"
+
+## Twitter Cards
+# twitterSite = ""
+# twitterCreator = ""
 
 ## JSON-LD
 schemaType = "Person"
+# schemaType = "Organization"
+schemaName = "James Elliott"
+schemaAuthor = "James Elliott"
+# schemaAuthorTwitter = "https://twitter.com/"
+# schemaAuthorLinkedIn = "https://www.linkedin.com/in/"
+schemaAuthorGitHub = "https://github.com/james-d-elliott"
+schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
-#schemaTwitter = "https://twitter.com/"
-#schemaLinkedIn = "https://www.linkedin.com/in/"
-schemaGitHub = "https://github.com/james-d-elliott"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "doks.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+# schemaTwitter = "https://twitter.com/"
+# schemaLinkedIn = ""
+schemaGitHub = "https://github.com/james-d-elliott/james-d-elliott.github.io"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -37,6 +51,7 @@ lqipWidth = "20x"
 
 # Footer
 footer = "Powered by <a href=\"https://pages.github.com\">GitHub Pages</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+copyRight = "Copyright (c) 2021 James Elliott"
 
 # Alert
 alert = true
@@ -47,12 +62,13 @@ docsRepo = "https://github.com/james-d-elliott/james-d-elliott.github.io"
 editPage = true
 
 [options]
-  lazySizes = true
-  clipBoard = true
-  instantPage = true
-  flexSearch = true
-  darkMode = true
-  bootStrapJs = true
-  breadCrumb = false
-  highLight = true
-  kaTex = false
+lazySizes = true
+clipBoard = true
+instantPage = true
+flexSearch = true
+darkMode = true
+bootStrapJs = true
+breadCrumb = false
+highLight = true
+kaTex = false
+collapsibleSidebar = false
