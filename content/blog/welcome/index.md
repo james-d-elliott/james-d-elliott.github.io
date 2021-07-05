@@ -12,10 +12,10 @@ contributors: ["James Elliott"]
 
 I will be working on this site over the next few weeks to see what I can
 incorporate into it. This is both for my own purposes and to investigate
-how well [Hugo](https://gohugo.io/) and [Doks](https://getdoks.org/) 
+how well [Hugo](https://gohugo.io/) and [Doks](https://getdoks.org/)
 fit into other projects.
 
-Specifically I'm aiming to accomlish the following things: 
+Specifically I'm aiming to accomlish the following things:
 
 - Automate documentation of my APT Repository
 
@@ -24,7 +24,6 @@ Specifically I'm aiming to accomlish the following things:
 - Implement some specific things that I've seen elsewhere
 
   - Latest blog post on the site index
-
 
 #### About Me
 

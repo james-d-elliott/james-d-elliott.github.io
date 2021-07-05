@@ -25,7 +25,7 @@ This is a list of goals or a to do list which I will mark off as I go.
 
   - ~~Add instructions on how to add it and get started~~
   
-  - Add list of packages and supported platforms similar to the 
+  - Add list of packages and supported platforms similar to the
   [repository](https://apt.jameselliott.dev) itself
 
 - Document my Kubernetes Cluster

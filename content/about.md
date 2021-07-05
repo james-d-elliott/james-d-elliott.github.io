@@ -11,7 +11,7 @@ type: myabout
 ---
 
 I am an experienced developer who practices development for a profession and a
-hobby. I regularly contribute to open source projects, and am one of the 
+hobby. I regularly contribute to open source projects, and am one of the
 maintainers of the [Authelia](https://github.com/authelia/authelia) open source
 project.
 
@@ -37,16 +37,19 @@ as a highly available Pod.
 ## Languages
 
 The languages I use on a daily basis are:
+
 - go
 - C#
 - Python
 
 The other languages I occasioanlly use are:
+
 - C
 - C++
 - JavaScript/TypeScript (nodejs)
 
 The other languages I've dabbled in are:
+
 - Java/Kotlin
 - PHP
 - Rust
@@ -59,7 +62,7 @@ Some of the tools I use to accomplish both my day job and my hobbies include:
 
 - [Ansible](https://www.ansible.com/) for configuration management
 
-- [ArgoCD](https://argoproj.github.io/argo-cd/) for Kubernetes continuous 
+- [ArgoCD](https://argoproj.github.io/argo-cd/) for Kubernetes continuous
   deployment
 
 - [HashiCorp Vault](https://www.vaultproject.io/) for secrets storage
